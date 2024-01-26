@@ -5,8 +5,15 @@ const Main = (props) => {
     return (
     <div className="main-container"> 
         <h1>{props.name}</h1>
-        <h3>{props.github}</h3>
-        <h3>{props.link}</h3>
+
+        <div className="main-links">
+            <a href={props.github}>
+                <button>GitHub</button>
+            </a>
+            <a href={props.link}>
+                <button>Link to App</button>
+            </a>
+        </div>
     </div>
     )
 }

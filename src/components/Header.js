@@ -5,8 +5,12 @@ const Header = (props) => {
     <div className="nav-container"> 
         <h1>Alex Greenberg's Portfolio</h1>
         <div className="links-container">
-            <a href="https://github.com/a1g23">GitHub</a>
-            <a href="https://www.linkedin.com/in/alex-greenberg567/">LinkedIn</a>
+            <a href="https://github.com/a1g23">
+                <button>GitHub</button>
+            </a>
+            <a href="https://www.linkedin.com/in/alex-greenberg567/">
+                <button>LinkedIn</button>
+            </a>
         </div>
     </div>
     )

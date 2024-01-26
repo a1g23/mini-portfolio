@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header'
 import Main from './components/Main'
@@ -10,7 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      <div>
+      <div className="project-container">
         {projectinfo.map(el => <Main name={el.name} github={el.github} link={el.link}/>)}
       </div>
       <Footer/>
