@@ -1,9 +1,14 @@
-// the component function
-const ComponentName = (props) => {
+import Projects from './Projects'
 
-    //The Components Returned JSX
-    return <div className="ComponentName"> This is ComponentName</div>
+// the component function
+const Main = (props) => {
+
+    return (
+    <div className="main-container"> 
+        <Projects/>
+    </div>
+    )
 }
 
 // export the component
-export default ComponentName
+export default Main
