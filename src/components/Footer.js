@@ -1,9 +1,15 @@
 // the component function
-const ComponentName = (props) => {
+const Footer = (props) => {
 
     //The Components Returned JSX
-    return <div className="ComponentName"> This is ComponentName</div>
+    return (
+    <div className="footer-container">
+        <h4>Website Created by Alex Greenberg</h4>
+        <h4>Learn More</h4>
+        <h4>Careers</h4>
+    </div>
+    )
 }
 
 // export the component
-export default ComponentName
+export default Footer

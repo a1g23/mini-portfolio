@@ -1,11 +1,12 @@
-import Projects from './Projects'
 
 // the component function
 const Main = (props) => {
 
     return (
     <div className="main-container"> 
-        <Projects/>
+        <h1>{props.name}</h1>
+        <h3>{props.github}</h3>
+        <h3>{props.link}</h3>
     </div>
     )
 }

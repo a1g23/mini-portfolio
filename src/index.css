@@ -25,3 +25,12 @@ code {
   justify-content: space-between;
 
 }
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 10px;
+  bottom: 0;
+  width: 95%;
+}
